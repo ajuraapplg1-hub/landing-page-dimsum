@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dimsum Ayam Bacira - Enak, Lucu, Bikin Nagih</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-orange-50 text-stone-800">
+
+    <!-- NAVBAR -->
+    <nav class="border-b border-orange-100 bg-white">
+        <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-5 md:flex-row">
+
+            <a href="#" class="text-2xl font-extrabold tracking-wide text-orange-500">
+                🥟 Dimsum Ayam Bacira
+            </a>
+
+            <div class="flex gap-6 text-sm font-semibold">
+
+                <a href="#beranda" class="transition hover:text-orange-500">
+                    Beranda
+                </a>
+
+                <a href="#menu" class="transition hover:text-orange-500">
+                    Menu
+                </a>
+
+                <a href="#pesan" class="transition hover:text-orange-500">
+                    Pesan
+                </a>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section id="beranda" class="overflow-hidden bg-orange-50">
+
+        <div class="mx-auto grid max-w-6xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
+
+            <!-- HERO TEXT -->
+            <div>
+
+                <p class="mb-3 text-sm font-bold uppercase tracking-[0.25em] text-orange-500">
+                    🥟 Fresh • Gurih • Bikin Nagih
+                </p>
+
+                <h1 class="text-4xl font-extrabold leading-tight text-stone-800 md:text-6xl">
+                    Dimsum Ayam
+                    <span class="text-orange-500">
+                        Bacira
+                    </span>
+                </h1>
+
+                <p class="mt-6 max-w-xl text-lg leading-8 text-stone-600">
+                    Satu gigitan langsung jatuh cinta! Dimsum ayam lembut
+                    dengan topping dan saus favorit yang bikin ngemil jadi
+                    makin seru. Cocok buat nemenin santai, kumpul bareng,
+                    atau sekadar manjain diri sendiri. 💕
+                </p>
+
+                <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+
+                    <a
+                        href="#pesan"
+                        class="rounded-full bg-orange-500 px-7 py-3 text-center font-bold text-white shadow-lg shadow-orange-200 transition hover:-translate-y-1 hover:bg-orange-600"
+                    >
+                        🛒 Pesan Sekarang
+                    </a>
+
+                    <a
+                        href="#menu"
+                        class="rounded-full border-2 border-orange-400 bg-white px-7 py-3 text-center font-bold text-orange-500 transition hover:bg-orange-100"
+                    >
+                        🍽️ Lihat Menu
+                    </a>
+
+                </div>
+
+                <div class="mt-7 flex flex-wrap gap-3 text-sm font-medium text-stone-600">
+
+                    <span class="rounded-full bg-white px-4 py-2 shadow-sm">
+                        ❤️ Dibuat Fresh
+                    </span>
+
+                    <span class="rounded-full bg-white px-4 py-2 shadow-sm">
+                        ✨ Bahan Pilihan
+                    </span>
+
+                    <span class="rounded-full bg-white px-4 py-2 shadow-sm">
+                        😋 Enak Banget
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO IMAGE -->
+            <div class="relative w-full">
+
+                <!-- Dekorasi -->
+                <div class="absolute -left-5 -top-5 h-20 w-20 rounded-full bg-yellow-300 opacity-60"></div>
+
+                <div class="absolute -bottom-5 -right-5 h-24 w-24 rounded-full bg-orange-200 opacity-70"></div>
+
+
+                <!-- Kotak Foto Lebih Lebar -->
+                <div class="relative mx-auto w-full max-w-2xl overflow-hidden rounded-[2rem] border-8 border-white bg-white shadow-2xl">
+
+                    <img
+                        src="hero.jpeg"
+                        alt="Dimsum Ayam Bacira"
+                        class="h-auto max-h-[520px] w-full object-contain"
+                    >
+
+                    <div class="border-t border-orange-100 bg-white px-5 py-5 text-center">
+
+                        <p class="text-lg font-extrabold text-orange-500">
+                            Dimsum Ayam Bacira 🥟
+                        </p>
+
+                        <p class="mt-1 text-sm text-stone-500">
+                            Kecil bentuknya, besar rasanya! 💕
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+    <section id="menu" class="bg-white py-16">
+
+        <div class="mx-auto max-w-6xl px-6">
+
+            <div class="mx-auto mb-12 max-w-2xl text-center">
+
+                <p class="text-sm font-bold uppercase tracking-[0.25em] text-orange-500">
+                    ✨ Menu Favorit
+                </p>
+
+                <h2 class="mt-3 text-3xl font-extrabold text-stone-800 md:text-4xl">
+                    Pilih Dimsum Favoritmu!
+                </h2>
+
+                <p class="mt-4 leading-7 text-stone-500">
+                    Mau yang pedas, creamy, atau crispy?
+                    Semua ada di Dimsum Ayam Bacira! 😋
+                </p>
+
+            </div>
+
+
+            <!-- CARD MENU -->
+            <div class="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+
+
+                <!-- CARD 1 : CHILI OIL -->
+                <article
+                    class="flex flex-col overflow-hidden rounded-3xl border border-red-100 bg-orange-50 shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+                >
+
+                    <div class="relative">
+
+                        <img
+                            src="chili-oil.jpeg"
+                            alt="Dimsum Chili Oil"
+                            class="h-60 w-full object-cover"
+                        >
+
+                        <span class="absolute left-4 top-4 rounded-full bg-red-500 px-4 py-2 text-xs font-bold text-white shadow">
+                            🌶️ FAVORIT
+                        </span>
+
+                    </div>
+
+
+                    <div class="flex flex-1 flex-col p-6">
+
+                        <p class="text-xs font-bold uppercase tracking-widest text-red-500">
+                            Pedas • Gurih • Nagih
+                        </p>
+
+                        <h3 class="mt-2 text-2xl font-extrabold text-stone-800">
+                            Dimsum Chili Oil
+                        </h3>
+
+                        <!-- HARGA CHILI OIL -->
+                        <p class="mt-2 text-lg font-extrabold text-red-500">
+                            Rp22.000
+                            <span class="text-sm font-semibold text-stone-500">
+                                • isi 6
+                            </span>
+                        </p>
+
+                        <p class="mt-3 leading-6 text-stone-500">
+                            Dimsum ayam lembut dengan chili oil
+                            yang pedas gurih dan bikin susah berhenti.
+                            Cocok banget buat kamu pencinta pedas! 🌶️
+                        </p>
+
+                        <button
+                            onclick="document.getElementById('modal').showModal()"
+                            class="mt-auto pt-5"
+                        >
+
+                            <span class="block w-full rounded-full bg-red-500 px-5 py-3 font-bold text-white transition hover:bg-red-600">
+                                Lihat Detail ❤️
+                            </span>
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 2 : MENTAI -->
+                <article
+                    class="flex flex-col overflow-hidden rounded-3xl border border-orange-100 bg-orange-50 shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+                >
+
+                    <div class="relative">
+
+                        <img
+                            src="mentai.jpeg"
+                            alt="Dimsum Mentai"
+                            class="h-60 w-full object-cover"
+                        >
+
+                        <span class="absolute left-4 top-4 rounded-full bg-orange-500 px-4 py-2 text-xs font-bold text-white shadow">
+                            🧡 BEST SELLER
+                        </span>
+
+                    </div>
+
+
+                    <div class="flex flex-1 flex-col p-6">
+
+                        <p class="text-xs font-bold uppercase tracking-widest text-orange-500">
+                            Creamy • Lembut • Lezat
+                        </p>
+
+                        <h3 class="mt-2 text-2xl font-extrabold text-stone-800">
+                            Dimsum Mentai
+                        </h3>
+
+                        <!-- HARGA MENTAI -->
+                        <p class="mt-2 text-lg font-extrabold text-orange-500">
+                            Rp25.000
+                            <span class="text-sm font-semibold text-stone-500">
+                                • isi 6
+                            </span>
+                        </p>
+
+                        <p class="mt-3 leading-6 text-stone-500">
+                            Dimsum ayam lembut dengan saus mentai
+                            creamy yang gurih dan bikin nagih di setiap gigitan.
+                        </p>
+
+                        <button
+                            onclick="document.getElementById('modal').showModal()"
+                            class="mt-auto pt-5"
+                        >
+
+                            <span class="block w-full rounded-full bg-orange-500 px-5 py-3 font-bold text-white transition hover:bg-orange-600">
+                                Lihat Detail 🧡
+                            </span>
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARD 3 : GORENG -->
+                <article
+                    class="flex flex-col overflow-hidden rounded-3xl border border-yellow-100 bg-orange-50 shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+                >
+
+                    <div class="relative">
+
+                        <img
+                            src="goreng.jpeg"
+                            alt="Dimsum Goreng"
+                            class="h-60 w-full object-cover"
+                        >
+
+                        <span class="absolute left-4 top-4 rounded-full bg-yellow-500 px-4 py-2 text-xs font-bold text-white shadow">
+                            ✨ CRISPY
+                        </span>
+
+                    </div>
+
+
+                    <div class="flex flex-1 flex-col p-6">
+
+                        <p class="text-xs font-bold uppercase tracking-widest text-yellow-600">
+                            Crispy • Gurih • Renyah
+                        </p>
+
+                        <h3 class="mt-2 text-2xl font-extrabold text-stone-800">
+                            Dimsum Goreng
+                        </h3>
+
+                        <!-- HARGA GORENG -->
+                        <p class="mt-2 text-lg font-extrabold text-yellow-600">
+                            Rp20.000
+                            <span class="text-sm font-semibold text-stone-500">
+                                • isi 4
+                            </span>
+                        </p>
+
+                        <p class="mt-3 leading-6 text-stone-500">
+                            Dimsum ayam dengan bagian luar yang
+                            renyah dan bagian dalam yang tetap lembut.
+                            Sekali coba langsung suka! 🤤
+                        </p>
+
+                        <button
+                            onclick="document.getElementById('modal').showModal()"
+                            class="mt-auto pt-5"
+                        >
+
+                            <span class="block w-full rounded-full bg-yellow-500 px-5 py-3 font-bold text-white transition hover:bg-yellow-600">
+                                Lihat Detail ✨
+                            </span>
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PESAN -->
+    <section id="pesan" class="bg-orange-50 py-16">
+
+        <div class="mx-auto max-w-4xl px-6">
+
+            <div class="mb-10 text-center">
+
+                <p class="text-sm font-bold uppercase tracking-[0.25em] text-orange-500">
+                    🛒 Order Sekarang
+                </p>
+
+                <h2 class="mt-3 text-3xl font-extrabold text-stone-800 md:text-4xl">
+                    Yuk, Pesan Dimsum Favoritmu!
+                </h2>
+
+                <p class="mx-auto mt-4 max-w-2xl leading-7 text-stone-500">
+                    Lagi ngidam dimsum? Jangan cuma dibayangin 😭
+                    Isi pesananmu di bawah dan siap-siap menikmati
+                    dimsum favorit dari Bacira!
+                </p>
+
+            </div>
+
+
+            <!-- FORM -->
+            <form class="rounded-3xl border border-orange-100 bg-white p-6 shadow-xl md:p-8">
+
+                <div class="grid gap-6 md:grid-cols-2">
+
+                    <div>
+
+                        <label class="mb-2 block text-sm font-bold text-stone-700">
+                            Nama Kamu
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="Contoh: Lala"
+                            class="w-full rounded-xl border border-orange-200 bg-orange-50 px-4 py-3 text-stone-800 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label class="mb-2 block text-sm font-bold text-stone-700">
+                            Nomor WhatsApp
+                        </label>
+
+                        <input
+                            type="text"
+                            placeholder="081234567890"
+                            class="w-full rounded-xl border border-orange-200 bg-orange-50 px-4 py-3 text-stone-800 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="mt-6 grid gap-6 md:grid-cols-2">
+
+                    <div>
+
+                        <label class="mb-2 block text-sm font-bold text-stone-700">
+                            Pilihan Dimsum
+                        </label>
+
+                        <select
+                            class="w-full rounded-xl border border-orange-200 bg-orange-50 px-4 py-3 text-stone-800 outline-none transition focus:border-orange-500"
+                        >
+
+                            <option>Dimsum Chili Oil</option>
+                            <option>Dimsum Mentai</option>
+                            <option>Dimsum Goreng</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div>
+
+                        <label class="mb-2 block text-sm font-bold text-stone-700">
+                            Jumlah Pesanan
+                        </label>
+
+                        <input
+                            type="number"
+                            min="1"
+                            placeholder="Contoh: 2"
+                            class="w-full rounded-xl border border-orange-200 bg-orange-50 px-4 py-3 text-stone-800 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="mt-6">
+
+                    <label class="mb-2 block text-sm font-bold text-stone-700">
+                        Catatan Pesanan
+                    </label>
+
+                    <textarea
+                        rows="4"
+                        placeholder="Contoh: saus dipisah, tambah chili oil, dll."
+                        class="w-full rounded-xl border border-orange-200 bg-orange-50 px-4 py-3 text-stone-800 outline-none transition focus:border-orange-500 focus:ring-2 focus:ring-orange-100"
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="mt-6 w-full rounded-full bg-orange-500 px-6 py-4 font-extrabold text-white shadow-lg shadow-orange-200 transition hover:-translate-y-1 hover:bg-orange-600"
+                >
+                    🥟 Kirim Pesanan
+                </button>
+
+                <p class="mt-4 text-center text-xs text-stone-400">
+                    Pesanan akan diproses setelah data diterima oleh
+                    Dimsum Ayam Bacira. 💕
+                </p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- MODAL -->
+    <dialog
+        id="modal"
+        class="m-auto w-full max-w-md rounded-3xl border border-orange-200 bg-white p-7 text-stone-800 backdrop:bg-orange-950/40"
+    >
+
+        <div class="text-center">
+
+            <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-orange-100 text-3xl">
+                🥟
+            </div>
+
+            <p class="mt-4 text-sm font-bold uppercase tracking-widest text-orange-500">
+                Dimsum Ayam Bacira
+            </p>
+
+            <h2 class="mt-2 text-2xl font-extrabold">
+                Sekali Coba, Pengen Lagi! 😋
+            </h2>
+
+            <p class="mt-4 leading-7 text-stone-500">
+                Dimsum ayam lembut dengan berbagai pilihan rasa
+                yang dibuat fresh dan penuh rasa. Mau pedas,
+                creamy, atau crispy? Tinggal pilih favoritmu!
+            </p>
+
+        </div>
+
+
+        <div class="mt-6 flex justify-center">
+
+            <form method="dialog">
+
+                <button
+                    class="rounded-full bg-orange-500 px-7 py-3 font-bold text-white transition hover:bg-orange-600"
+                >
+                    Oke, Tutup 💕
+                </button>
+
+            </form>
+
+        </div>
+
+    </dialog>
+
+
+    <!-- FOOTER -->
+    <footer class="border-t border-orange-100 bg-white py-10">
+
+        <div class="mx-auto max-w-6xl px-6 text-center">
+
+            <h3 class="text-2xl font-extrabold text-orange-500">
+                🥟 Dimsum Ayam Bacira
+            </h3>
+
+            <p class="mt-2 text-sm text-stone-500">
+                Dimsum enak, harga bersahabat, bikin mood jadi hebat! 💕
+            </p>
+
+            <div class="mt-5 text-sm text-stone-400">
+
+                <p>
+                    📱 Pesanan & Informasi: WhatsApp Dimsum Ayam Bacira
+                </p>
+
+                <p class="mt-2">
+                    © 2026 Dimsum Ayam Bacira. Dibuat dengan Cinta ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
